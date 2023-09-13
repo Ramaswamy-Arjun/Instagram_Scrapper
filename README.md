@@ -3,11 +3,11 @@ To use this tool follow the below given steps:
 1. Clone the repository
 2. Open your terminal
 3. Setup a virtual environment:
-py -m virtualenv 'anyname'
+>>py -m virtualenv 'anyname'
 4. Install the requirements.txt file (this is a one time process) using the following syntax on your system
-py -m pip install -r requirements.txt
+>>py -m pip install -r requirements.txt
 5. After installation the tool is read to use. 
-py Instagram_Scraper.py -l 'your username' -p 'your password' -s 'the tag you want to scrap' -n 2 -o 'any name you want'.csv
+>>py Instagram_Scraper.py -l 'your username' -p 'your password' -s 'the tag you want to scrap' -n 2 -o 'any name you want'.csv
 
 The tool will extract the data and save a csv file in the same repository or folder
 
